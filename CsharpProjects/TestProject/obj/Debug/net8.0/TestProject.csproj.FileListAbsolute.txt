@@ -12,3 +12,4 @@ C:\Users\seba\Desktop\c de c\Make Decisions in C#\CsharpProjects\TestProject\obj
 C:\Users\seba\Desktop\c de c\Make Decisions in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.pdb
 C:\Users\seba\Desktop\c de c\Make Decisions in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
 C:\Users\seba\Desktop\c de c\Make Decisions in C#\CsharpProjects\TestProject\obj\Debug\net8.0\ref\TestProject.dll
+C:\Users\seba\Desktop\c de c\Make Decisions in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json
