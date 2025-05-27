@@ -1,4 +1,7 @@
-﻿int saleAmount = 1001;
-// int discount = saleAmount > 1000 ? 100 : 50;
+﻿
+Random random = new Random();
 
-Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+int resultadoNum = random.Next(0, 2) == 0 ? 50 : 100;
+string caraOSello = resultadoNum == 50 ? "Cara" : "Sello";
+
+Console.WriteLine($"Dice: {caraOSello}");
