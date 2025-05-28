@@ -1,7 +1,38 @@
-﻿
-Random random = new Random();
+﻿string permission = "Admin|Manager";
+int level = 55;
 
-int resultadoNum = random.Next(0, 2) == 0 ? 50 : 100;
-string caraOSello = resultadoNum == 50 ? "Cara" : "Sello";
+// Primero verificamos el tipo de usuario basado en 'permission'
+if (permission.Contains("Admin"))
+{
+    if (level >= 55)
+    {
+        Console.WriteLine("Welcome, Super Admin user.");
+    }
+    else
+    {
+        Console.WriteLine("Welcome, Admin user.");
+    }
+}
+else if (permission.Contains("Manager"))
+{
+    if (level >= 20)
+    {
+        Console.WriteLine("Contact an Admin for access.");
+    }
+    else
+    {
+        Console.WriteLine("You do not have sufficient privileges.");
+    }
+}
+else
+{
+    if (level <= 10)
+    {
+        Console.WriteLine("Your subscription will expire soon. Renew now!");
+    }
+}
 
-Console.WriteLine($"Dice: {caraOSello}");
+if (level > 0)
+{
+    Console.WriteLine($"your level is  {level}%.");
+}
